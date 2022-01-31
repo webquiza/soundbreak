@@ -16,4 +16,6 @@
 
 #### Monday, 01/31
 
-- 10:35: Start researching options on how to implement Firebase for hosting.
+- 10:35: Start researching options on how to implement hosting with Firebase.
+
+- 11:35: Stop researching hosting with Firebase.
