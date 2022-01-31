@@ -13,3 +13,7 @@
 * 5:30: Start researching options on how to implement Spotify API for authentication.
 
 * 6:30: Stop researching Spotify API implementation.
+
+#### Monday, 01/31
+
+- 10:35: Start researching options on how to implement Firebase for hosting.
