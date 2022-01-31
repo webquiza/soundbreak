@@ -11,3 +11,5 @@
 * 4:00: Stop working on capstone-proposal.
 
 * 5:30: Start researching options on how to implement Spotify API for authentication.
+
+* 6:30: Stop researching Spotify API implementation.
