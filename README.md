@@ -20,4 +20,6 @@
 
 - 11:35: Stop researching hosting with Firebase.
 
-- 9:15: Start working on capstone-proposal.
+- 9:15: Resume working on capstone-proposal copy.
+
+* 9:45: Complete working on capstone-proposal copy.

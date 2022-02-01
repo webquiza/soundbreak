@@ -2,11 +2,13 @@
 
 ### Name of Project: Soundbreak
 
-### Project's Purpose or Goal: (What will it do for users?)
+### Project's Purpose: (What will it do for users?)
+
+- The purpose of this project is to allow users to start a “study” stopwatch which they can stop, resume or reset as they please. While the timer is running or stopped, the user has the option to listen to full length songs from a preselected Spotify playlist via a widget.
 
 ### List the absolute minimum features the project requires to meet this purpose or goal:
 
-- Stopwatch feature with start, stop and reset functionality.
+- Stopwatch feature with start, stop, resume and reset functionality.
 - User auntentication via Spotify API that allows users to listen to full length songs.
 - Spotify widget with preselected playlist.
 
@@ -19,7 +21,11 @@
 
 ### If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
+- Add hosting
+
 ### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+
+- Firebase for hosting
 
 ### Is there anything else you'd like your instructor to know?
 
