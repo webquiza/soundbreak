@@ -27,3 +27,5 @@
 #### Tuesday, 02/15
 
 - 6:15: Start building out basic stopwatch feature.
+
+- 8:15: Stop building out basic stopwatch feature.
