@@ -23,3 +23,7 @@
 - 9:15: Resume working on capstone-proposal copy.
 
 * 9:45: Complete working on capstone-proposal copy.
+
+#### Tuesday, 02/15
+
+- 6:15: Start building out basic stopwatch feature.
