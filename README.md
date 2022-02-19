@@ -33,3 +33,5 @@
 #### Saturday, 02/19
 
 - 10:10: Resume building out stopwatch feature.
+
+* 11:10: Stop building out stopwatch feature.
