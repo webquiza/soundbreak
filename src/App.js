@@ -31,9 +31,10 @@ function App() {
 
   return (
     <div className="App">
-      {/*displays time variable*/}
-      <div>{time}</div>
-
+      <div>
+        {/*hundredth of a second*/}
+        <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
+      </div>
       <div>
         {/* when buttons are clicked, it sets timer to true or false*/}
         <button onClick={() => setTimeOn(true)}>Start</button>
