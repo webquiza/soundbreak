@@ -40,13 +40,14 @@ function App() {
         <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
       </div>
       <div>
-        {/* when buttons are clicked, it sets timer to true or false*/}
-        <button onClick={() => setTimeOn(true)}>Start</button>
-        <button onClick={() => setTimeOn(false)}>Stop</button>
-        <button onClick={() => setTimeOn(true)}>Resume</button>
-
-        {/* when button is clicked, it sets timer to zero*/}
-        <button onClick={() => setTime(0)}>Reset</button>
+        {/* when buttons are clicked, it sets timer to true or false. Each have conditional rendering*/}
+        {!timerOn && <button onClick={() => setTimeOn(true)}>Start</button>}
+        {timerOn && <button onClick={() => setTimeOn(false)}>Stop</button>}
+        {!timerOn && <button onClick={() => setTimeOn(true)}>Resume</button>}
+        {!timerOn && (
+          //when button is clicked, it sets timer to zero
+          <button onClick={() => setTime(0)}>Reset</button>
+        )}
       </div>
     </div>
   );
