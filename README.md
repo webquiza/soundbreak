@@ -37,3 +37,5 @@
 * 11:10: Stop building out stopwatch feature.
 
 * 6:10: Resume building out stopwatch feature.
+
+* 7:10: Complete building out stopwatch feature and move into separate component.
