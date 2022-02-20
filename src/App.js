@@ -34,17 +34,27 @@ function App() {
       <div>
         {/*minutes*/}
         <span>{("0" + Math.floor((time / 60000) % 100)).slice(-2)}:</span>
+
         {/*seconds*/}
         <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}:</span>
+
         {/*hundredth of a second*/}
         <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
       </div>
+
       <div>
         {/* when buttons are clicked, it sets timer to true or false. Each have conditional rendering*/}
-        {!timerOn && <button onClick={() => setTimeOn(true)}>Start</button>}
+        {!timerOn && time === 0 && (
+          <button onClick={() => setTimeOn(true)}>Start</button>
+        )}
+
         {timerOn && <button onClick={() => setTimeOn(false)}>Stop</button>}
-        {!timerOn && <button onClick={() => setTimeOn(true)}>Resume</button>}
-        {!timerOn && (
+
+        {!timerOn && time !== 0 && (
+          <button onClick={() => setTimeOn(true)}>Resume</button>
+        )}
+
+        {!timerOn && time > 0 && (
           //when button is clicked, it sets timer to zero
           <button onClick={() => setTime(0)}>Reset</button>
         )}
