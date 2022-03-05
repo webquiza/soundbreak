@@ -39,3 +39,7 @@
 * 6:10: Resume building out stopwatch feature.
 
 * 7:10: Complete building out stopwatch feature and move into separate component.
+
+#### Friday, 03/04
+
+- 6:45: Start building out Spotify aunthentication component.
