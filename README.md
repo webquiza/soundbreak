@@ -42,6 +42,6 @@
 
 #### Friday, 03/04
 
-- 6:45: Start building out Spotify aunthentication component.
+- 6:45: Start building out Spotify authentication component.
 
-* 7:45: Stop building out Spotify aunthentication component.
+* 7:45: Stop building out Spotify authentication component.
