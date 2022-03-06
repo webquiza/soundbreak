@@ -20,7 +20,13 @@ function App() {
         .find((elem) => elem.startsWith("access_token"))
         .split("=")[1];
 
-      console.log(token);
+      // console.log(token);
+
+      // save token to local storage
+
+      window.location.hash = "";
+      window.localStorage.setItem("token", token);
+      setToken(token);
     }
   }, []);
 
