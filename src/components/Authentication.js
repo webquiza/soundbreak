@@ -7,7 +7,7 @@ function App() {
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 
-  const [token, setToken] = useState(" ");
+  const [token, setToken] = useState("");
 
   useEffect(() => {
     const hash = window.location.hash;
@@ -26,18 +26,28 @@ function App() {
 
       window.location.hash = "";
       window.localStorage.setItem("token", token);
-      setToken(token);
     }
+
+    setToken(token);
   }, []);
+
+  const logout = () => {
+    setToken("");
+    window.localStorage.removeItem("token");
+  };
 
   return (
     <div>
       <header>
-        <a
-          href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}
-        >
-          Login to Spotify
-        </a>
+        {!token ? (
+          <a
+            href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}
+          >
+            Login to Spotify
+          </a>
+        ) : (
+          <button onClick={logout}>Logout</button>
+        )}
       </header>
     </div>
   );
