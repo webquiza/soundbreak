@@ -49,3 +49,5 @@
 #### Sunday, 03/06
 
 - 2:10: Resume building out Spotify authentication component.
+
+* 4:10: Stop building out Spotify authentication component.
