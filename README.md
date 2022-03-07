@@ -53,3 +53,5 @@
 * 4:10: Stop building out Spotify authentication component.
 
 * 7:15: Resume building out Spotify authentication component.
+
+* 8:15: Stop building out Spotify authentication component.
