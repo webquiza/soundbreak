@@ -1,61 +1,64 @@
-### Research & Planning Log
+# _Soundbreak_
 
-#### Sunday, 01/30
+#### By _**Carlos Urquiza**_
 
-- 1:55: Start researching options for building a stopwatch feature using React Hooks.
+#### _Final capstone project for Epicodus._
 
-- 2:55: Stop researching stopwatch feature.
+## Technologies Used
 
-* 3:30: Start working on capstone-proposal.
+- _React_
+- _JavaScript_
+- _Spotify API_
+- _Bootstrap_
+- _Firebase_
 
-* 4:00: Stop working on capstone-proposal.
+## Description
 
-* 5:30: Start researching options on how to implement Spotify API for authentication.
+- _Application allow users to start a “study” stopwatch which they can stop, resume or reset as they please. While the timer is running or stopped, the user has the option to listen to full length songs (if they complete authentication process) from a preselected Spotify playlist via a widget. The stopwatch and Spotify widget functionality do not interact with each other. Each feature is part of an individual React component._
 
-* 6:30: Stop researching Spotify API implementation.
+## Setup/Installation Requirements
 
-#### Monday, 01/31
+- _Clone this repository._
+- _Open your terminal._
+- _Navigate to the directory (such as your Desktop) where you want the cloned directory._
+- _Type `git clone` and paste the URL you copied._
+- _Press Enter._
+- _Navigate to `sounbreak` by running `cd sounbreak`._
+- _Run `npm install`._
+- _Run `npm run start` to view project in local host._
 
-- 10:35: Start researching options on how to implement hosting with Firebase.
+## Firebase URL
 
-- 11:35: Stop researching hosting with Firebase.
+- {ADD URL HERE}
 
-- 9:15: Resume working on capstone-proposal copy.
+## Known Bugs
 
-* 9:45: Complete working on capstone-proposal copy.
+- _No known bugs._
 
-#### Tuesday, 02/15
+## License
 
-- 6:15: Start building out basic stopwatch feature.
+MIT License
 
-- 8:15: Stop building out basic stopwatch feature.
+Copyright (c) 2021 Carlos Urquiza
 
-#### Saturday, 02/19
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- 10:10: Resume building out stopwatch feature.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* 11:10: Stop building out stopwatch feature.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-* 6:10: Resume building out stopwatch feature.
+## Contact Information
 
-* 7:10: Complete building out stopwatch feature and move into separate component.
-
-#### Friday, 03/04
-
-- 6:45: Start building out Spotify authentication component.
-
-* 7:45: Stop building out Spotify authentication component.
-
-#### Sunday, 03/06
-
-- 2:10: Resume building out Spotify authentication component.
-
-* 4:10: Stop building out Spotify authentication component.
-
-* 7:15: Resume building out Spotify authentication component.
-
-* 8:15: Stop building out Spotify authentication component.
-
-#### Monday, 03/07
-
-- 6:15: Start moving Research & Planning Log to seperate file and work on README copy.
+_Feel free to contact me at webquiza@gmail.com with any questions regarding this webpage._
