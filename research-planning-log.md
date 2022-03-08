@@ -59,3 +59,5 @@
 #### Monday, 03/07
 
 - 6:15: Start moving Research & Planning Log to seperate file and work on README copy.
+
+* 7:15: Stop clean up work from above.
