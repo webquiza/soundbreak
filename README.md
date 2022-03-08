@@ -55,3 +55,7 @@
 * 7:15: Resume building out Spotify authentication component.
 
 * 8:15: Stop building out Spotify authentication component.
+
+#### Monday, 03/07
+
+- 6:15: Start moving Research & Planning Log to seperate file and work on README copy.
