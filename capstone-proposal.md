@@ -9,7 +9,7 @@
 ### List the absolute minimum features the project requires to meet this purpose or goal:
 
 - Stopwatch feature with start, stop, resume and reset functionality.
-- User auntentication via Spotify API that allows users to listen to full length songs.
+- User authentication via Spotify API that allows users to listen to full length songs.
 - Spotify widget with preselected playlist.
 
 ### What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
