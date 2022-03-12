@@ -65,3 +65,5 @@
 #### Friday, 03/11
 
 - 6:20: Start working on CSS styling with bootstrap.
+
+* 10:20: Stop working on CSS styling with bootstrap. This block of time and commit history included several different styling changes and addition of new components (header and footer).
