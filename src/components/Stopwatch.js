@@ -1,6 +1,6 @@
 // this import gives access to useState & useEffect hooks
 import React from "react";
-//import "./App.css";
+import "./App.css";
 
 const App = () => {
   // keep track of milliseconds timer has been on
@@ -31,34 +31,59 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <div>
-        <h1>Soundbreak</h1>
-        <div>
+      <div className="Watch">
+        <div id="display">
           {/*minutes*/}
           <span>{("0" + Math.floor((time / 60000) % 100)).slice(-2)}:</span>
 
           {/*seconds*/}
-          <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}:</span>
+          <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}</span>
 
           {/*hundredth of a second*/}
-          <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
+          {/*<span>{("0" + ((time / 10) % 100)).slice(-2)}</span>*/}
         </div>
 
         <div>
           {/* when buttons are clicked, it sets timer to true or false. Each have conditional rendering*/}
           {!timerOn && time === 0 && (
-            <button onClick={() => setTimeOn(true)}>Start</button>
+            <button
+              type="button"
+              className="btn btn-dark"
+              onClick={() => setTimeOn(true)}
+            >
+              Start
+            </button>
           )}
 
-          {timerOn && <button onClick={() => setTimeOn(false)}>Stop</button>}
+          {timerOn && (
+            <button
+              type="button"
+              className="btn btn-dark"
+              onClick={() => setTimeOn(false)}
+            >
+              Stop
+            </button>
+          )}
 
           {!timerOn && time !== 0 && (
-            <button onClick={() => setTimeOn(true)}>Resume</button>
+            <button
+              type="button"
+              className="btn btn-dark"
+              onClick={() => setTimeOn(true)}
+            >
+              Resume
+            </button>
           )}
 
           {!timerOn && time > 0 && (
             //when button is clicked, it sets timer to zero
-            <button onClick={() => setTime(0)}>Reset</button>
+            <button
+              type="button"
+              className="btn btn-dark"
+              onClick={() => setTime(0)}
+            >
+              Reset
+            </button>
           )}
         </div>
       </div>
