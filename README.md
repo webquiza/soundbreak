@@ -11,6 +11,7 @@
 - _Spotify API_
 - _Bootstrap_
 - _Firebase_
+- _Cypress_
 
 ## Description
 
@@ -30,6 +31,10 @@
 ## Firebase URL
 
 - {ADD URL HERE}
+
+## Cypress Demo
+
+- [![Watch the demo](https://img.youtube.com/vi/https://www.youtube.com/watch?v=G22_jhwvQYs/default.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
 
 ## Known Bugs
 
