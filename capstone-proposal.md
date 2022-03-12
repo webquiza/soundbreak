@@ -21,7 +21,7 @@
 
 ### If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
-- Add a to-do list feature and hosting through Firebase.
+- Add a to-do list feature, use [Cypress](https://www.cypress.io/) to test the front end experience, and add hosting through Firebase.
 
 ### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
