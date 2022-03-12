@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-//import "./App.css";
+import "./App.css";
 
 function App() {
   const CLIENT_ID = "27d94f3bea17489aaff2d53dc9f31772";
@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="Music">
       <iframe
         src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator&theme=0"
         width="100%"
@@ -52,10 +52,14 @@ function App() {
           <a
             href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}
           >
-            Login to Soundbreak
+            <button type="button" className="btn btn-dark">
+              Login to Soundbreak
+            </button>
           </a>
         ) : (
-          <button onClick={logout}>Logout of Soundbreak</button>
+          <button type="button" className="btn btn-dark" onClick={logout}>
+            Logout of Soundbreak
+          </button>
         )}
       </header>
     </div>
