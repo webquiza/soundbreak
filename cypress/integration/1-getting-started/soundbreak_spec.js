@@ -12,7 +12,7 @@ describe("Visit Soundbreak", () => {
   });
 
   it("user can use stopwatch feature", () => {
-    //Clickc Start button
+    //Clicks Start button
     cy.get(":nth-child(2) > .btn");
     cy.contains("Start").click();
     //Clicks Stop button
