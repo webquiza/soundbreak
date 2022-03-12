@@ -61,3 +61,7 @@
 - 6:15: Start moving Research & Planning Log to seperate file and work on README copy.
 
 * 7:15: Stop clean up work from above.
+
+#### Friday, 03/11
+
+- 6:20: Start working on CSS styling with bootstrap.
