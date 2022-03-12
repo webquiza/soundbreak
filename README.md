@@ -34,7 +34,7 @@
 
 ## Cypress Demo
 
-- [![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
+[![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
 
 ## Known Bugs
 
