@@ -30,7 +30,7 @@
 
 ## Firebase URL
 
-- {ADD URL HERE}
+- https://soundbreak-us.firebaseapp.com
 
 ## Cypress Demo
 
