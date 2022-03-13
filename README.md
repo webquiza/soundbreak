@@ -12,6 +12,7 @@
 - _Bootstrap_
 - _Firebase_
 - _Cypress_
+- _CircleCI_
 
 ## Description
 
