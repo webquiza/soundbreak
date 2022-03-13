@@ -79,3 +79,5 @@
 * 7:00: Stop working on Firebase implementation.
 
 * 7:30: Start working on updating README and capstone-proposal with Cypress information.
+
+* 8:30: Complete README and capstone-proposal updates.
