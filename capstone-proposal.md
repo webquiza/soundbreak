@@ -21,11 +21,11 @@
 
 ### If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
 
-- Add a to-do list feature, use [Cypress](https://www.cypress.io/) to test the front end experience, and add hosting through Firebase.
+- Use [Cypress](https://www.cypress.io/) to test the front end experience, add hosting through Firebase, and implement the use of CircleCI.
 
 ### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-- Firebase for hosting. Cypress for end to end frontend test.
+- Firebase for hosting, Cypress for end to end frontend test, and CircleCI which will run all Cypress tests when I make a commit to `main` branch.
 
 ### Is there anything else you'd like your instructor to know?
 
