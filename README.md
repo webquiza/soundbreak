@@ -44,6 +44,10 @@
 
 [![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
 
+## CircleCI Demo
+
+[![Watch the demo](https://img.youtube.com/vi/fVKKZyRjGdI/0.jpg)](https://www.youtube.com/watch?v=fVKKZyRjGdI)
+
 ## Known Bugs
 
 - _No known bugs._
