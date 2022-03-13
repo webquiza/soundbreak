@@ -18,6 +18,10 @@
 
 - _Application allow users to start a “study” stopwatch which they can stop, resume or reset as they please. While the timer is running or stopped, the user has the option to listen to full length songs (if they complete authentication process) from a preselected Spotify playlist via a widget. The stopwatch and Spotify widget functionality do not interact with each other. Each feature is part of an individual React component._
 
+## Soundbreak Demo
+
+[![Watch the demo](https://img.youtube.com/vi/xBZ0wCD4pYI/0.jpg)](https://www.youtube.com/watch?v=xBZ0wCD4pYI)
+
 ## Setup/Installation Requirements
 
 - _Clone this repository._
