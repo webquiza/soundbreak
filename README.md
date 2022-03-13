@@ -32,10 +32,6 @@
 
 - https://soundbreak-us.firebaseapp.com
 
-## Cypress Demo
-
-[![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
-
 ## Run Cypress test
 
 - To run Cypress test, ensure you're currently in the main project directory, `soundbreak`
