@@ -89,3 +89,5 @@
 #### Sunday, 03/13
 
 - 9:35: Start updating README and capstone-proposal with additional CircleCI functionality information.
+
+* 10:35: Stop updating updating README and capstone-proposal.
