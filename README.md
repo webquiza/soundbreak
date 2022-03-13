@@ -16,11 +16,23 @@
 
 ## Description
 
-- _Application allow users to start a “study” stopwatch which they can stop, resume or reset as they please. While the timer is running or stopped, the user has the option to listen to full length songs (if they complete authentication process) from a preselected Spotify playlist via a widget. The stopwatch and Spotify widget functionality do not interact with each other. Each feature is part of an individual React component._
+_Soundbreak is a React application that allows a user to interact with a stopwatch feature which they can stop, resume, or reset as they please. The stopwatch feature is intended to help the user keep track of their time while studying, taking a break, or anything else they can think of. If the user completes the authentication process by clicking the `Login to Soundbreak` button, they will be able to listen to full length songs from a preselected Spotify playlist. The stopwatch and Spotify playlist functionality do not interact with each other. Each feature is part of an individual React component._
+
+_As part of the above React application, I implemented the use of [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress). Cypress is a frontend test automation framework that allows developers to see, in an easy and automated way, that the frontend user experience they built is working as expected._
+
+_Finally, I implemented the use of [CircleCI](https://circleci.com/docs/2.0/about-circleci/) which triggers automated tests (including my Cypress tests) each time I make a commit to the main branch of my this repository. The next part of this process, which I **did not** implement, would be to automate a new Firebase deployment each time a new CircleCI test runs and passes. Once this process is implemented, I will no longer have to manually run a new Firebase deployment via my terminal._
 
 ## Soundbreak Demo
 
 [![Watch the demo](https://img.youtube.com/vi/xBZ0wCD4pYI/0.jpg)](https://www.youtube.com/watch?v=xBZ0wCD4pYI)
+
+## Cypress Demo
+
+[![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
+
+## CircleCI Demo
+
+[![Watch the demo](https://img.youtube.com/vi/fVKKZyRjGdI/0.jpg)](https://www.youtube.com/watch?v=fVKKZyRjGdI)
 
 ## Setup/Installation Requirements
 
@@ -42,15 +54,6 @@
 - To run Cypress test, ensure you're currently in the main project directory, `soundbreak`
 - Run `npm run cypress:open`
 - When the Cypress test runner opens, click on the `soundbreak_spec.js` file. This will start the end to end test.
-- Alternatively, you can watch the Cypress test demo below.
-
-## Cypress Demo
-
-[![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
-
-## CircleCI Demo
-
-[![Watch the demo](https://img.youtube.com/vi/fVKKZyRjGdI/0.jpg)](https://www.youtube.com/watch?v=fVKKZyRjGdI)
 
 ## Known Bugs
 
