@@ -75,3 +75,5 @@
 - 2:30: Stop researching how to implement Cypress end-to-end testing framework. This block of time and commit history included several different changes inclding implementation of an end to end test of the front end experience of the application.
 
 * 5:00: Start working on Firebase implementation.
+
+* 7:00: Stop working on Firebase implementation.
