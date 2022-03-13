@@ -1,10 +1,10 @@
 describe("Visit Soundbreak", () => {
   beforeEach(() => {
     //Use if testing locally. Doing so will cause circleCI pipeline to fail
-    cy.visit("http://localhost:3000/");
+    //cy.visit("http://localhost:3000/");
 
     //Use if you want to test a successfull circleCI pipeline
-    //cy.visit("https://soundbreak-us.firebaseapp.com/");
+    cy.visit("https://soundbreak-us.firebaseapp.com/");
   });
 
   it("user can see logo", () => {
