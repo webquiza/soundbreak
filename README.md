@@ -36,6 +36,17 @@
 
 [![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
 
+## Run Cypress test
+
+- To run Cypress test, ensure you're currently in the main project directory, `soundbreak`
+- Run `npm run cypress:open`
+- When the Cypress test runner opens, click on the `soundbreak_spec.js` file. This will start the end to end test.
+- Alternatively, you can watch the Cypress test demo below.
+
+## Cypress Demo
+
+[![Watch the demo](https://img.youtube.com/vi/G22_jhwvQYs/0.jpg)](https://www.youtube.com/watch?v=G22_jhwvQYs)
+
 ## Known Bugs
 
 - _No known bugs._
