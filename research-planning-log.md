@@ -83,3 +83,5 @@
 * 8:30: Complete README and capstone-proposal updates.
 
 * 8:45: Start researching CircleCI to see if we can implement the use of it for this project.
+
+* 9:45: Stop researching CircleCI implementation. This block of time and commit history includes basic implementation of CircleCI.
