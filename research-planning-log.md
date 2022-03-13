@@ -81,3 +81,5 @@
 * 7:30: Start working on updating README and capstone-proposal with Cypress information.
 
 * 8:30: Complete README and capstone-proposal updates.
+
+* 8:45: Start researching CircleCI to see if we can implement the use of it for this project.
