@@ -25,7 +25,7 @@
 
 ### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
-- Firebase for hosting.
+- Firebase for hosting. Cypress for end to end frontend test.
 
 ### Is there anything else you'd like your instructor to know?
 
