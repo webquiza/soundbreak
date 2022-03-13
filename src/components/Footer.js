@@ -3,7 +3,7 @@ import "./App.css";
 
 const Footer = () => (
   <div className="Footer">
-    <h5>Soundbreak | By Carlos Urquiza</h5>
+    <h5>Soundbreak | By Carlos Urquiza | 2022</h5>
   </div>
 );
 
