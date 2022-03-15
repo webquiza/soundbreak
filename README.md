@@ -20,7 +20,7 @@ _Soundbreak is a React application that allows a user to interact with a stopwat
 
 _As part of the above React application, I implemented the use of [Cypress.io](https://docs.cypress.io/guides/overview/why-cypress). Cypress is a frontend test automation framework that allows developers to see, in an easy and automated way, that the frontend user experience they built is working as expected._
 
-_Finally, I implemented the use of [CircleCI](https://circleci.com/docs/2.0/about-circleci/) which triggers automated tests (including my Cypress tests) each time I make a commit to the main branch of my this repository. The next part of this process, which I **did not** implement, would be to automate a new Firebase deployment each time a new CircleCI test runs and passes. Once this process is implemented, I will no longer have to manually run a new Firebase deployment via my terminal._
+_Finally, I implemented the use of [CircleCI](https://circleci.com/docs/2.0/about-circleci/) which triggers automated tests (including my Cypress tests) each time I make a commit to the `main` branch of this repository. The next part of this process, which I **did not** implement, would be to automate a new Firebase deployment each time a new CircleCI test runs and passes. Once this process is implemented, I will no longer have to manually run a new Firebase deployment via my terminal._
 
 ## Soundbreak Demo
 
